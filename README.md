@@ -10,6 +10,7 @@ exec is found in section 3, we will say exec(3)).
 Once this is done, you should be able to use your shell to run single commands, such as 
 
 cs6233> ls 
+
 cs6233> grep cat words.txt 
 
 # Part 2 - I/O Redirection 
@@ -22,6 +23,7 @@ information in that redircmd to open a file and replace standard input or output
 When this is done, you should be able to redirect the input and output of commands: 
 
 cs6233> ls > a.txt 
+
 cs6233> sort -r < a.txt 
 
 # Part 3 - Pipes 
