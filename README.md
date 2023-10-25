@@ -1,6 +1,6 @@
 # -XV6-shell-implementation
 
-Part 1 - Command Execution 
+# Part 1 - Command Execution 
 Implement basic command execution by filling in the code inside of the case ‘ ‘ blocking the 
 runcmd function. You will want to look at the manual page for the exec(3) function by typing 
 "man 3 exec" (Note: throughout this course, when referring to commands that one can look 
@@ -10,7 +10,7 @@ Once this is done, you should be able to use your shell to run single commands, 
 cs6233> ls 
 cs6233> grep cat words.txt 
 
-Part 2 - I/O Redirection 
+# Part 2 - I/O Redirection 
 Now extend the shell to handle input and output redirection. Programs will be expecting their 
 input on standard input and write to standard output, so you will have to open the file and then 
 replace standard input or output with that file. As before, the parser already recognizes the '>' 
@@ -20,7 +20,7 @@ When this is done, you should be able to redirect the input and output of comman
 cs6233> ls > a.txt 
 cs6233> sort -r < a.txt 
 
-Part 3 - Pipes 
+# Part 3 - Pipes 
 The final task is to add the ability to pipe the output of one command into the input of another. 
 You will fill out the code for the '|' case of the switch statement in runcmd to do this. 
 Once this is done, you should be able to run a full pipeline: 
